@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JLang - Baixe Agora!</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+<link rel="icon" href="Assets/jlicon.ico" type="image/x-icon" />
+
+<style>
+  body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e4e3e3;
+    padding-top: 80px;
+  }
+
+  .top-bar {
+    position: fixed;     
+    top: 0;               
+    left: 0;             
+    width: 100%;        
+    background-color: #00bf63; 
+    padding: 10px 20px;    
+    display: flex;       
+    align-items: center;
+    z-index: 9999;        
+    box-sizing: border-box;
+  }
+
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+
+  .container {
+    margin-top: 80px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+  }
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  h4 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+
+  .download-section {
+    background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .download-section h2 {
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    border: 1px solid #006400;
+    background: linear-gradient(to bottom, #00bf63, #2c8125);
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+
+  .btn:hover {
+    border-color: #004d00;
+    background-color: #0056b3;
+  }
+
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <img src="Assets/jllogo.png" alt="JLogo" class="logo" />
+</div>
+
+<div class="container">
+  <!-- Título principal -->
+  <h2>Teste o JL!</h2>
+
+  <h3>
+    Obrigado por estar instalando o JL!<br>
+    O JL é uma linguagem de programação experimental, ainda contém alguns erros.<br>
+    No momento, as únicas funcionalidades do JL são exibir textos e somar valores de variáveis.
+  </h3>
+
+  <h2>Listas de funções até o momento:</h2>
+
+  <h3>Como mostrar algum texto na tela?</h3>
+  <p><strong>say="Olá Mundo"</strong></p>
+
+  <h3>Como criar uma variável?</h3>
+  <p><strong>$nome=valor</strong></p>
+
+  <h3>Como somar um valor?</h3>
+  <p>
+    <strong>when_tcs {<br>
+    &nbsp;&nbsp;$a=1<br>
+    &nbsp;&nbsp;$b=2<br>
+    &nbsp;&nbsp;say="{a} + {b}"<br>
+    }</strong>
+  </p>
+  <p>O interpretador exibirá o resultado da soma das variáveis.</p>
+
+  <h3>O que é "when_tcs"?</h3>
+  <p>
+    A função mais importante do JL é o <strong>"when_tcs"</strong> (Quando_o Código Começar).<br>
+    O que estiver dentro dessa função será executado quando o código iniciar.<br>
+    "when_" poderá ter outras "subfunções" no futuro!
+  </p>
+
+
+  <h4>
+    O JL é um projeto no qual quero me dedicar ao máximo para se tornar uma das linguagens de programação mais simples, fácil e útil para todos!<br>
+    É 100% Open Source. Se quiser estudar, testar ou modificar o código, sinta-se livre! ^^
+  </h4>
+
+
+  <div class="download-section">
+    <h2>Download do JLang Vb1</h2>
+    <a href="https://drive.google.com/drive/folders/1sPOz1tGLgXK2tcRb-ws9LFRuM-3laOVF?usp=drive_link" target="_blank" class="btn">Baixar JLang Vb1</a>
+  </div>
+</div>
+
+</body>
+</html>
